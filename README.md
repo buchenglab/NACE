@@ -1,2 +1,2 @@
-# FURNACE
-Contains Self-supervised NACE denoising and resolution enhancement by Fourier reweighting (FR)
+# NACE
+Noisy-As-Clean with consensus equilibrium (NACE) for self-supervised denoising of non-independent noise
