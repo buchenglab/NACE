@@ -21,7 +21,7 @@ from csbdeep.models import Config, CARE
 #limit_gpu_memory(fraction=1/2)
 
 # Load training data and validation data, use 10% validation data
-(X,Y), (X_val,Y_val), axes = load_training_data('./data/NACE_20230610/Fig1_data/NAC_5-1_avg_pairs_BSA.npz', validation_split=0.15, verbose=True)
+(X,Y), (X_val,Y_val), axes = load_training_data('./data/SKOV3/NAC_5-1_avg_pairs_BSA.npz', validation_split=0.15, verbose=True)
 
 c = axes_dict(axes)['C']
 n_channel_in, n_channel_out = X.shape[c], Y.shape[c]
