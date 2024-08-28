@@ -1,7 +1,9 @@
 
 """
 Generate noisier-noisy image pairs for CARE-NAC denoising
-Image pairs are generated directly from consecutive acquired raw SRS images
+Image pairs are generated directly from consecutively acquired raw SRS images
+Note that this script needs to be processed multiple times with different noisier-noisy pairs, 
+including (1avg-5avg, 2avg-5avg, 3avg-5avg, 4avg-5avg)
 Haonan Lin 
 June 2024
 
