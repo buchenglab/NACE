@@ -24,7 +24,7 @@ from csbdeep.data import RawData, create_patches, no_background_patches
 #raw_data = RawData.from_arrays(x, y, axes = "ZYX")
 
 raw_data = RawData.from_folder (
-    basepath    = './data/NACE_20230610/Fig1_data',
+    basepath    = './data/SKOV3',
     source_dirs = ['1avg_BSA'],
     target_dir  = '5avg_BSA',
     axes        = 'YX',
@@ -36,7 +36,7 @@ X, Y, XY_axes = create_patches (
     patch_size          = (128,128),
     n_patches_per_image = 64,
     patch_filter  = no_background_patches(threshold=0.8, percentile=97),
-    save_file           = './data/NACE_20230610/Fig1_data/NAC_5-1_avg_pairs_BSA.npz',
+    save_file           = './data/SKOV3/NAC_5-1_avg_pairs_BSA.npz',
 )
 
 assert X.shape == Y.shape
