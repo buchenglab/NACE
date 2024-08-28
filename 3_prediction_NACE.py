@@ -22,7 +22,7 @@ from csbdeep.models import CARE
 
 # Load target image 
 
-datapath = './data/NACE_20230610/Fig1_data/5avg_BSA/'
+datapath = './data/SKOV3/5avg_BSA/'
 filename = 'BSA_17.tif'
 y = imread(datapath + filename)
 
