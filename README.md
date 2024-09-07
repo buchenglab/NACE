@@ -4,6 +4,11 @@ Noisy-As-Clean with consensus equilibrium (NACE) is a self-supervised, non-indep
 # Prerequesite
 The code relies on the CSBDeep Python package (https://github.com/CSBDeep/CSBDeep) for U-net denoiser implementation. A copy of the csbdeep package is included in the folder.
 
+CSBDeep copyright:
+BSD 3-Clause License
+Copyright (c) 2018, Uwe Schmidt, Martin Weigert
+All rights reserved.
+
 # User Guide
 The NACE algorithm aims to perform self-supervised, learning-based denoising of 2D microscopic images without noise statistics assumption and is robust against non-independent noise.
 
