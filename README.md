@@ -4,7 +4,7 @@ Noisy-As-Clean with consensus equilibrium (NACE) is a self-supervised, non-indep
 # Prerequesite
 The code relies on the CSBDeep Python package (https://github.com/CSBDeep/CSBDeep) for U-net denoiser implementation. A copy of the csbdeep package is included in the folder.
 
-Software dependencies and version tested: Python 3 (3.9.12), Tensorflow 2 (2.11.0) with GPU support (CUDA (9.1) and cuDNN (8.8.0))
+Software dependencies and tested versions: Python 3 (3.9.12), Tensorflow 2 (2.11.0) with GPU support (CUDA (9.1) and cuDNN (8.8.0))
 
 CSBDeep copyright:
 BSD 3-Clause License
